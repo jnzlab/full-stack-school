@@ -1,6 +1,5 @@
 import { Day, PrismaClient, UserSex } from "@prisma/client";
 const prisma = new PrismaClient();
-
 async function main() {
   // ADMIN
   await prisma.admin.create({
